@@ -20,6 +20,8 @@ git clone git@github.com:utensils/docker-lobsters.git
 cd docker-lobsters
 git submodule update --init --recursive
 make
+docker network create webproxy
+#chang domain
 docker-compose up
 ```
 
